@@ -1,10 +1,12 @@
+import certifi
 import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 
 def scrape_ecommerce_site():
-    url = "https://amazon.com"
-    response = requests.get(url)
+    url = "https://google.com"
+    # response = requests.get(url)
+    response = requests.get(url, verify=certifi.where())
     soup = BeautifulSoup(response.content, "html.parser")
 
     products = []
