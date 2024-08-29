@@ -15,7 +15,7 @@ This project is a Python-based web scraper that gathers data from an e-commerce 
 
 1. **Scrape the Data**:
    ```bash
-   python scrapers/ecommerce_scraper.py
+   python scrapers/ecommerce_scrapper.py
 
 2. **Clean the Data**:
    ```bash
@@ -46,7 +46,10 @@ This project is a Python-based web scraper that gathers data from an e-commerce 
 7. **License**:
    <br>
    This project is licensed under the [MIT License](MT License).
+    <br><br>
+
 8. **Final Setup**:
+    <br>
    Make sure to activate your virtual environment and install all the required libraries:
     ```bash
     source .venv/bin/activate
